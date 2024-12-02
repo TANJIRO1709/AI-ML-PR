@@ -82,7 +82,7 @@ const GeminiAi = () => {
                     >
                         <Button
                             type="submit"
-                            className="h-10 bg-blue-600 text-white rounded-md hover:bg-blue-700 hover:shadow-lg transition-all"
+                            className="h-10 bg-blue-600 text-black rounded-md hover:bg-blue-700 hover:shadow-lg transition-all"
                             disabled={loading || disable}
                         >
                             {loading ? "Thinking..." : "Ask"}
@@ -97,7 +97,7 @@ const GeminiAi = () => {
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: 10 }}
                             transition={{ duration: 0.5 }}
-                            className="bg-[#D4E2D4] bg-opacity-60 rounded-xl py-4 px-6 shadow-md"
+                            className="bg-black bg-opacity-60 rounded-xl py-4 px-6 shadow-md"
                         >
                             {response && (
                                 <TypewriterEffect
