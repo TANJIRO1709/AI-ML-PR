@@ -10,10 +10,10 @@ export function BackgroundBoxesDemo() {
 
       <Boxes />
       <h1 className={cn("md:text-4xl text-xl text-white relative z-20")}>
-        Tailwind is Awesome
+        Behaviour Analysis
       </h1>
       <p className="text-center mt-2 text-neutral-300 relative z-20">
-        Framer motion is the best animation library ngl
+        Your go to AI to predict CGPA on basis of different parameters
       </p>
     </div>
   );

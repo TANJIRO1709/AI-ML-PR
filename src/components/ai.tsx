@@ -16,7 +16,7 @@ export function LampDemo() {
         }}
         className="mt-2 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        CleverCoach AI <br /> Answer is Here
+      <a href="/Gemini">  Behavioural Analysis AI <br /> Answer is Here <br/> Click me </a>
       </motion.h1>
     </LampContainer>
   );
